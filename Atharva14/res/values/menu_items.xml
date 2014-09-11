@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_items">
+        <item >Events</item>
+        <item >Events_Box</item>
+        <item >Profile</item>
+        <item >Location</item>
+        <item >News</item>
+        <item >ProShowx</item>
+        <item >Sponsors</item>
+    </string-array>
+</resources>

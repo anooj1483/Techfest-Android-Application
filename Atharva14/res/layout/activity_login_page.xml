@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_x="57dp"
+        android:layout_y="2dp"
+        android:src="@drawable/atharvamini" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_x="57dp"
+        android:layout_y="128dp"
+        android:background="@drawable/edittext_style"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/white" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="194dp"
+        android:layout_height="50dp"
+        android:layout_x="57dp"
+        android:layout_y="230dp"
+        android:background="@drawable/edittext_style"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_x="57dp"
+        android:layout_y="196dp"
+        android:text="Password"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="106dp"
+        android:layout_x="57dp"
+        android:layout_y="104dp"
+        android:text="Email"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="69dp"
+        android:layout_x="46dp"
+        android:layout_y="324dp"
+        android:background="@drawable/button_style"
+        style="@style/button_text"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_x="170dp"
+        android:layout_y="324dp"
+        android:background="@drawable/button_style"
+        android:text="Register" />
+
+</AbsoluteLayout>
